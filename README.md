@@ -86,3 +86,11 @@ npm run start
 ```bash
 http://localhost:3000
 ```
+
+
+##Possiveis Erros
+**Token**
+Quando iniciar a aplicação back-end e o front-end, antes de inserir qualquer registro, verifique se o localStorage atráves do f12>application>localstorage, contém o token, caso contrário será necessário rodar novamente e tentar fazer um registro e ver se aparece.
+
+**Fique a curiosidade do desenvolvedor ou quem interesse.**
+Atráves do postman defina sua base.url e coloque a rota que deseja testar, caso teste o método post, tente no objeto de envio passar o token para validação do sistema de segurança do laravel no qual é gerado em uma função especifica no arquivo (articleService.js) e pegue atráves do f12 e faça o teste manualmente.
